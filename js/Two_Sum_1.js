@@ -13,3 +13,6 @@ var twoSum = function (nums, target) {
     dic[nums[i]] = i;
   }
 };
+
+let res = twoSum([2, 7, 11, 15], 9);
+console.log(res);
