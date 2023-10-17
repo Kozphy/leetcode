@@ -1,7 +1,6 @@
 ﻿
-using ConsoleApp2.algo;
 
-namespace ConsoleApp2
+namespace CshAlgo.algo
 {
 
     internal class Program
@@ -10,8 +9,9 @@ namespace ConsoleApp2
         private static int[] arr2 = { 4, 1, 2, 1, 2 };
 
         static void Main(string[] args)
-        {   
-            Bubble_sort.Run();
+        {
+            gcd.gcd_cal(16,4);
+            //Bubble_sort.Run();
         }
 
 
@@ -19,5 +19,6 @@ namespace ConsoleApp2
         {
             Console.WriteLine(f);
         }
+
     }
 }
