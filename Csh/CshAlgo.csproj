@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="practice\NewFolder1\**" />
+    <Compile Remove="practice\NewFolder\**" />
+    <EmbeddedResource Remove="practice\NewFolder1\**" />
+    <EmbeddedResource Remove="practice\NewFolder\**" />
+    <None Remove="practice\NewFolder1\**" />
+    <None Remove="practice\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="practice\collection_p\" />
+  </ItemGroup>
+
+</Project>

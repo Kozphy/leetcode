@@ -1,6 +1,11 @@
 from typing import List
 
 
+def twoSum_brute(nums: List[int], target: int) -> List[int]:
+    for i, val in enumerate(nums):
+        print(i, val)
+
+
 def twoSum(nums: List[int], target: int) -> List[int]:
     di = {}
     for i, val in enumerate(nums):
@@ -11,7 +16,9 @@ def twoSum(nums: List[int], target: int) -> List[int]:
         di[val] = i
 
 
-nums = [3, 3]
+nums = [2, 7, 11, 15]
 target = 6
-ans = twoSum(nums, target)
+ans = twoSum_brute(nums, target)
 print(ans)
+# ans = twoSum(nums, target)
+# print(ans)
