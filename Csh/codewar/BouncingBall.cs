@@ -25,7 +25,7 @@ namespace ConsoleApp2.codewar
             
             while (h > window) 
             {
-                h = h* bounce;
+                h = h * bounce;
                 mother_see += 2;
             }
             Console.WriteLine(mother_see);

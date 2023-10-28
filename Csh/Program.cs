@@ -10,7 +10,11 @@ namespace CshAlgo.algo
 
         static void Main(string[] args)
         {
-            gcd.gcd_cal(16,4);
+            //gcd.gcd_cal(16,4);
+            PascalTriangle ps = new PascalTriangle();
+            //ps.Create(5);
+            ps.Create2(5);
+           
             //Bubble_sort.Run();
         }
 
