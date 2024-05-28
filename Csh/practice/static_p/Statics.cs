@@ -8,6 +8,8 @@ namespace ConsoleApp2.practice.static_p
 {
     internal class Statics
     {
+        public static int bookCount = 0;
+
         public static void Start() { 
             StaticModifier();
         }
@@ -15,7 +17,7 @@ namespace ConsoleApp2.practice.static_p
         private static void StaticModifier()
         {
             Statics s = new Statics();
-            Console.WriteLine(Statics.bookCount);
+            Console.WriteLine(bookCount);
             Console.WriteLine(s.getBookCount());
 
             /*
@@ -24,8 +26,6 @@ namespace ConsoleApp2.practice.static_p
             Console.ReadLine();
             */
         }
-
-        public static int bookCount = 0;
 
         public int getBookCount()
         {

@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.practice.Struct_p
 {
+    public struct rect
+    {
+        public int w, h;
+    }
+
     internal class struct_start
     {
         struct Game 

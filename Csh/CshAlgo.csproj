@@ -9,15 +9,11 @@
 
   <ItemGroup>
     <Compile Remove="practice\NewFolder1\**" />
-    <Compile Remove="practice\NewFolder\**" />
     <EmbeddedResource Remove="practice\NewFolder1\**" />
-    <EmbeddedResource Remove="practice\NewFolder\**" />
     <None Remove="practice\NewFolder1\**" />
-    <None Remove="practice\NewFolder\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="practice\collection_p\" />
+    <Compile Remove="practice\collection_p\**" />
+    <EmbeddedResource Remove="practice\collection_p\**" />
+    <None Remove="practice\collection_p\**" />
   </ItemGroup>
 
 </Project>
